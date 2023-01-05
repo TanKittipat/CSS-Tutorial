@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 * {
   font-family: "Quicksand", sans-serif;
-  padding: 5px;
+  padding: 10px;
+}
+h1 {
+  text-decoration: underline;
+  color: white;
 }
 p {
-  color: #0d0628;
+  color: #e5f2c9;
   text-align: center;
   padding: 10px;
+  min-width: 400px;
+  border-top: dashed 2px #6a0136;
+  border-bottom: dotted 2px #da4167;
 }
 .happy {
   background-color: #1e1a1d;
@@ -17,6 +24,32 @@ p {
   background-color: #1f0318;
   color: #e5f2c9;
 }
+#สวัสดี {
+  border: solid 2px #3d2645;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+span {
+  color: #e5f2c9;
+}
 body {
-  background-color: #d3fcd5;
+  background: rgb(255, 200, 221);
+  background: linear-gradient(
+    321deg,
+    rgba(255, 200, 221, 1) 0%,
+    rgba(205, 180, 219, 1) 50%,
+    rgba(189, 224, 254, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a:link {
+  color: #da4167;
+  font-style: italic;
+}
+a:visited {
+  color: #3d2645;
+  font-style: italic;
+  text-decoration: line-through;
 }
