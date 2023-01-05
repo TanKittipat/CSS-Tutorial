@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+  padding: 5px;
+}
+p {
+  color: #0d0628;
+  text-align: center;
+  padding: 10px;
+}
+.happy {
+  background-color: #1e1a1d;
+  color: #e5f2c9;
+}
+#love {
+  text-decoration: line-through;
+  background-color: #1f0318;
+  color: #e5f2c9;
+}
+body {
+  background-color: #d3fcd5;
+}
